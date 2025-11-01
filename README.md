@@ -1,3 +1,4 @@
 Hasil:
 
-<img width="429" height="844" alt="Screenshot 2025-11-02 020353" src="https://github.com/user-attachments/assets/bd56f513-6380-4f98-a3a6-582e747251ad" />
+<img width="403" height="811" alt="image" src="https://github.com/user-attachments/assets/77f6d13a-73d9-41ae-8d52-7f265e843d55" />
+
