@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Pertemuan5</string>
     <string name="submit">submit</string>
+
+    <string name="form_title">Formulir Pendaftaran</string>
+    <string name="label_nama_lengkap">NAMA LENGKAP</string>
+    <string name="hint_nama_lengkap">Isian nama lengkap</string>
+    <string name="label_jenis_kelamin">JENIS KELAMIN</string>
+    <string name="label_status_perkawinan">STATUS PERKAWINAN</string>
+    <string name="label_alamat">ALAMAT</string>
+    <string name="hint_alamat">Alamat</string>
+    <string name="button_submit">Submit</string>
 </resources>
