@@ -171,3 +171,28 @@ fun HeaderPendaftaran() {
         )
     }
 }
+
+@Composable
+fun SelectionOption(
+    label: String,
+    isSelected: Boolean,
+    onClick: () -> Unit
+) {
+    Row(
+        modifier = Modifier
+            .selectable(
+                selected = isSelected,
+                onClick = onClick
+            )
+            .fillMaxWidth()
+            .padding(end = 8.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        RadioButton(
+            selected = isSelected,
+            onClick = onClick,
+            colors = RadioButtonDefaults.colors(selectedColor = PrimaryBlue)
+        )
+        Text(label)
+    }
+}
