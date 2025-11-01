@@ -153,3 +153,21 @@ fun FormDataPendaftaran(modifier: Modifier = Modifier) {
 }
 
 
+
+@Composable
+fun HeaderPendaftaran() {
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(60.dp),
+        contentAlignment = Alignment.CenterStart
+    ) {
+        Text(
+            text = stringResource(R.string.form_title),
+            color = Color.Black,
+            fontSize = 20.sp,
+            style = MaterialTheme.typography.headlineSmall,
+            modifier = Modifier.padding(start = 24.dp) // <-- Menyesuaikan padding header
+        )
+    }
+}
